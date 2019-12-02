@@ -1,0 +1,8 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Indexer/etc/indexer.xsd">
+    <indexer id="customer_grid">
+        <fieldset name="customer">
+            <field name="terms_enable" xsi:type="filterable" dataType="int"/>
+            <field name="add_timestamp" xsi:type="filterable" dataType="datetime"/>
+        </fieldset>
+    </indexer>
+</config>
